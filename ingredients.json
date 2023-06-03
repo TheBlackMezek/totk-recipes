@@ -1,0 +1,555 @@
+[
+    {
+        "name": "Shock Fruit",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Splash Fruit",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Dazzlefruit",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Golden Apple",
+        "categories": [
+            "fruit",
+            "apple"
+        ]
+    },
+    {
+        "name": "Ice Fruit",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Fleet-Lotus Seeds",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Mighty Bananas",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Hylian Tomato",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Palm Fruit",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Voltfruit",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Wildberry",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Hydromelon",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Bomb Flower",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Muddle Bud",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Spicy Pepper",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Fire Fruit",
+        "categories": [
+            "fruit"
+        ]
+    },
+    {
+        "name": "Apple",
+        "categories": [
+            "fruit",
+            "apple"
+        ]
+    },
+    {
+        "name": "Big Hearty Truffle",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Endura Shroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Brightcap",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Hylian Shroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Hearty Truffle",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Puffshroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Rushroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Zapshroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Chillshroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Silent Shroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Ironshroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Razorshroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Stamella Shroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Skyshroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Sunshroom",
+        "categories": [
+            "mushroom"
+        ]
+    },
+    {
+        "name": "Korok Frond",
+        "categories": [
+            "herb",
+            "green"
+        ]
+    },
+    {
+        "name": "Sundelion",
+        "categories": [
+            "flower",
+            "green"
+        ]
+    },
+    {
+        "name": "Blue Nightshade",
+        "categories": [
+            "flower",
+            "green"
+        ]
+    },
+    {
+        "name": "Big Hearty Radish",
+        "categories": [
+            "vegetable",
+            "green"
+        ]
+    },
+    {
+        "name": "Fortified Pumpkin",
+        "categories": [
+            "vegetable",
+            "green"
+        ]
+    },
+    {
+        "name": "Sun Pumpkin",
+        "categories": [
+            "vegetable",
+            "green"
+        ]
+    },
+    {
+        "name": "Hearty Radish",
+        "categories": [
+            "vegetable",
+            "green"
+        ]
+    },
+    {
+        "name": "Hyrule Herb",
+        "categories": [
+            "herb",
+            "green"
+        ]
+    },
+    {
+        "name": "Armoranth",
+        "categories": [
+            "flower",
+            "green"
+        ]
+    },
+    {
+        "name": "Cool Safflina",
+        "categories": [
+            "flower",
+            "green"
+        ]
+    },
+    {
+        "name": "Endura Carrot",
+        "categories": [
+            "vegetable",
+            "green"
+        ]
+    },
+    {
+        "name": "Electric Safflina",
+        "categories": [
+            "flower",
+            "green"
+        ]
+    },
+    {
+        "name": "Warm Safflina",
+        "categories": [
+            "flower",
+            "green"
+        ]
+    },
+    {
+        "name": "Swift Violet",
+        "categories": [
+            "flower",
+            "green"
+        ]
+    },
+    {
+        "name": "Swift Carrot",
+        "categories": [
+            "vegetable",
+            "green"
+        ]
+    },
+    {
+        "name": "Mighty Thistle",
+        "categories": [
+            "flower",
+            "green"
+        ]
+    },
+    {
+        "name": "Stambulb",
+        "categories": [
+            "vegetable",
+            "green"
+        ]
+    },
+    {
+        "name": "Raw Whole Bird",
+        "categories": [
+            "meat"
+        ]
+    },
+    {
+        "name": "Raw Gourmet Meat",
+        "categories": [
+            "meat"
+        ]
+    },
+    {
+        "name": "Raw Bird Thigh",
+        "categories": [
+            "meat"
+        ]
+    },
+    {
+        "name": "Raw Prime Meat",
+        "categories": [
+            "meat"
+        ]
+    },
+    {
+        "name": "Raw Bird Drumstick",
+        "categories": [
+            "meat"
+        ]
+    },
+    {
+        "name": "Raw Meat",
+        "categories": [
+            "meat"
+        ]
+    },
+    {
+        "name": "Goron Spice",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Bird Egg",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Tabantha Wheat",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Hylian Rice",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Goat Butter",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Cane Sugar",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Oil Jar",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Courser Bee Honey",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Star Fragment",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Dark Clump",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Fairy",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Acorn",
+        "categories": [
+            "seasonings",
+            "nut"
+        ]
+    },
+    {
+        "name": "Chickaloo Tree Nut",
+        "categories": [
+            "seasonings",
+            "nut"
+        ]
+    },
+    {
+        "name": "Rock Salt",
+        "categories": [
+            "seasonings"
+        ]
+    },
+    {
+        "name": "Sanke Carp",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Glowing Cave Fish",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Hearty Bass",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Hearty Salmon",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Hyrule Bass",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Staminoka Bass",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Chillfin Trout",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Armored Carp",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Mighty Carp",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Stealthfin Trout",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Sizzlefin Trout",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Voltfin Trout",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Mighty Porgy",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Armored Porgy",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Ancient Arowana",
+        "categories": [
+            "fish"
+        ]
+    },
+    {
+        "name": "Razorclaw Crab",
+        "categories": [
+            "fish",
+            "crab"
+        ]
+    },
+    {
+        "name": "Ironshell Crab",
+        "categories": [
+            "fish",
+            "crab"
+        ]
+    },
+    {
+        "name": "Bright-Eyed Crab",
+        "categories": [
+            "fish",
+            "crab"
+        ]
+    },
+    {
+        "name": "Sneaky River Snail",
+        "categories": [
+            "fish",
+            "snail"
+        ]
+    }
+]

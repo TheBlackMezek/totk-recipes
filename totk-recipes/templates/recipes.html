@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-COMPATIBLE" content="ie=edge">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <title>Tears of the Kingdom Recipes</title>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Tears of the Kingdom Recipes</h1>
+            <script>
+                function incrementVar(var_name) {
+                    var value = sessionStorage.getItem(var_name);
+                    if (!value) {
+                        value = 0;
+                    }
+                    value = parseInt(value) + 1;
+                    sessionStorage.setItem(var_name, value);
+                    document.getElementById(var_name).textContent = value;
+                    updateRecipeList();
+                }
+        
+                function decrementVar(var_name) {
+                    var value = sessionStorage.getItem(var_name);
+                    if (!value) {
+                        value = 0;
+                    }
+                    value = parseInt(value) - 1;
+                    if (value < 0){
+                        value = 0;
+                    }
+                    sessionStorage.setItem(var_name, value);
+                    document.getElementById(var_name).textContent = value;
+                    updateRecipeList();
+                }
+        
+                function initVars(ingredients) {
+                    ingredients.forEach(function(ingredient) {
+                        sessionStorage.setItem(ingredient.name, 0);
+                        document.getElementById(ingredient.name).textContent = 0;
+                    });
+                    updateRecipeList();
+                }
+
+                function queryAnyFromCategoryExc(quantity, category, excludes) {
+                    var ingredients = getIngredients();
+                    var matches = 0;
+                    ingredients.forEach(function(ingredient) {
+                        if (ingredient.categories.includes(category) && !excludes.includes(ingredient.name)) {
+                            matches += sessionStorage.getItem(ingredient.name);
+                        }
+                    });
+                    if (matches >= quantity) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+
+                function queryAnyFromCategory(quantity, category) {
+                    var ingredients = getIngredients();
+                    var matches = 0;
+                    ingredients.forEach(function(ingredient) {
+                        if (ingredient.categories.includes(category)) {
+                            matches += sessionStorage.getItem(ingredient.name);
+                        }
+                    });
+                    if (matches >= quantity) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+
+                function queryUniqueFromCategory(quantity, category) {
+                    var ingredients = getIngredients();
+                    var matches = 0;
+                    ingredients.forEach(function(ingredient) {
+                        if (ingredient.categories.includes(category) && sessionStorage.getItem(ingredient.name)>0) {
+                            matches += 1;
+                        }
+                    });
+                    if (matches >= quantity) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+
+                function queryIngredient(quantity, ingredient_name) {
+                    if (sessionStorage.getItem(ingredient_name) >= quantity) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+
+                function ingredientExists(ingredient_name) {
+                    var ingredients = getIngredients()
+                    var ret = false;
+                    ingredients.forEach(function(ingredient) {
+                        if (ingredient.name == ingredient_name) {
+                            ret = true;
+                        }
+                    });
+                    return ret;
+                }
+
+                function queryAllOf(queries) {
+                    for (let key in queries) {
+                        if (key == 'any_of' && !queryAnyOf(queries[key])) {
+                            return false;
+                        }
+                        else if (key == 'any_mushroom' && !queryAnyFromCategory(queries[key], 'mushroom')) {
+                            return false;
+                        }
+                        else if (key == 'any_meat' && !queryAnyFromCategory(queries[key], 'meat')) {
+                            return false;
+                        }
+                        else if (key == 'any_fish' && !queryAnyFromCategory(queries[key], 'fish')) {
+                            return false;
+                        }
+                        else if (key == 'any_snail' && !queryAnyFromCategory(queries[key], 'snail')) {
+                            return false;
+                        }
+                        else if (key == 'any_crab' && !queryAnyFromCategory(queries[key], 'crab')) {
+                            return false;
+                        }
+                        else if (key == 'any_vegetable' && !queryAnyFromCategory(queries[key], 'vegetable')) {
+                            return false;
+                        }
+                        else if (key == 'any_flower' && !queryAnyFromCategory(queries[key], 'flower')) {
+                            return false;
+                        }
+                        else if (key == 'any_herb' && !queryAnyFromCategory(queries[key], 'herb')) {
+                            return false;
+                        }
+                        else if (key == 'any_nut' && !queryAnyFromCategory(queries[key], 'nut')) {
+                            return false;
+                        }
+                        else if (key == 'any_ore' && !queryAnyFromCategory(queries[key], 'ore')) {
+                            return false;
+                        }
+                        else if (key == 'any_monster_part' && !queryAnyFromCategory(queries[key], 'monster_part')) {
+                            return false;
+                        }
+                        else if (key == 'any_fruit' && !queryAnyFromCategory(queries[key], 'fruit')) {
+                            return false;
+                        }
+                        else if (key == 'unique_meat' && !queryUniqueFromCategory(queries[key], 'meat')) {
+                            return false;
+                        }
+                        else if (key == 'unique_fish' && !queryUniqueFromCategory(queries[key], 'fish')) {
+                            return false;
+                        }
+                        else if (key == 'unique_green' && !queryUniqueFromCategory(queries[key], 'green')) {
+                            return false;
+                        }
+                        else if (key == 'unique_mushroom' && !queryUniqueFromCategory(queries[key], 'mushroom')) {
+                            return false;
+                        }
+                        else if (key == 'unique_fruit' && !queryUniqueFromCategory(queries[key], 'fruit')) {
+                            return false;
+                        }
+                        else if (key == 'any_fruit_not_tomato' && !queryAnyFromCategoryExc(queries[key], 'fruit', ['Hylian Tomato'])) {
+                            return false;
+                        }
+                        else if (ingredientExists(key) && !queryIngredient(queries[key], key)) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+
+                function queryAnyOf(queries) {
+                    for (let key in queries) {
+                        if (key == 'all_of' && queryAllOf(queries[key])) {
+                            return true;
+                        }
+                        else if (key == 'any_mushroom' && queryAnyFromCategory(queries[key], 'mushroom')) {
+                            return true;
+                        }
+                        else if (key == 'any_meat' && queryAnyFromCategory(queries[key], 'meat')) {
+                            return true;
+                        }
+                        else if (key == 'any_fish' && queryAnyFromCategory(queries[key], 'fish')) {
+                            return true;
+                        }
+                        else if (key == 'any_snail' && queryAnyFromCategory(queries[key], 'snail')) {
+                            return true;
+                        }
+                        else if (key == 'any_crab' && queryAnyFromCategory(queries[key], 'crab')) {
+                            return true;
+                        }
+                        else if (key == 'any_vegetable' && queryAnyFromCategory(queries[key], 'vegetable')) {
+                            return true;
+                        }
+                        else if (key == 'any_flower' && queryAnyFromCategory(queries[key], 'flower')) {
+                            return true;
+                        }
+                        else if (key == 'any_herb' && queryAnyFromCategory(queries[key], 'herb')) {
+                            return true;
+                        }
+                        else if (key == 'any_nut' && queryAnyFromCategory(queries[key], 'nut')) {
+                            return true;
+                        }
+                        else if (key == 'any_ore' && queryAnyFromCategory(queries[key], 'ore')) {
+                            return true;
+                        }
+                        else if (key == 'any_monster_part' && queryAnyFromCategory(queries[key], 'monster_part')) {
+                            return true;
+                        }
+                        else if (key == 'any_fruit' && queryAnyFromCategory(queries[key], 'fruit')) {
+                            return true;
+                        }
+                        else if (key == 'unique_meat' && queryUniqueFromCategory(queries[key], 'meat')) {
+                            return true;
+                        }
+                        else if (key == 'unique_fish' && queryUniqueFromCategory(queries[key], 'fish')) {
+                            return true;
+                        }
+                        else if (key == 'unique_green' && queryUniqueFromCategory(queries[key], 'green')) {
+                            return true;
+                        }
+                        else if (key == 'unique_mushroom' && queryUniqueFromCategory(queries[key], 'mushroom')) {
+                            return true;
+                        }
+                        else if (key == 'unique_fruit' && queryUniqueFromCategory(queries[key], 'fruit')) {
+                            return true;
+                        }
+                        else if (key == 'any_fruit_not_tomato' && queryAnyFromCategoryExc(queries[key], 'fruit', ['Hylian Tomato'])) {
+                            return true;
+                        }
+                        else if (ingredientExists(key) && queryIngredient(queries[key], key)) {
+                            return true;
+                        }
+                    }
+                    return false;
+                }
+
+                function updateRecipeList() {
+                    var recipes = getRecipes();
+                    var recipe_table = document.getElementById('recipe_table');
+
+                    // First we need to remove all the extra rows that were added last time
+                    var old_rows = recipe_table.querySelectorAll('tr:not(:first-child)');
+                    old_rows.forEach(function(row) {
+                        row.remove();
+                    })
+
+                    // Then we can check to see what recipes are possible with current ingredients,
+                    // and add those as new rows
+                    recipes.forEach(function(recipe) {
+                        var checks = 0;
+                        var checks_passed = 0;
+                        if (recipe.hasOwnProperty('all_of')) {
+                            checks += 1;
+                            if (queryAllOf(recipe['all_of'])) {
+                                checks_passed += 1;
+                            }
+                        }
+                        if (recipe.hasOwnProperty('any_of')) {
+                            checks += 1;
+                            if (queryAnyOf(recipe['any_of'])) {
+                                checks_passed += 1;
+                            }
+                        }
+                        if (checks_passed == checks) {
+                            var new_row = document.createElement('tr');
+                            var recipe_cell = document.createElement('th');
+                            var recipe_text = document.createTextNode(recipe.name);
+                            recipe_cell.appendChild(recipe_text);
+                            new_row.appendChild(recipe_cell);
+                            recipe_table.appendChild(new_row);
+                        }
+                    });
+                }
+
+                function getRecipes() {
+                    return JSON.parse("{{ recipes|safe }}".replaceAll("'", '"'));
+                }
+
+                function getIngredients() {
+                    return JSON.parse("{{ ingredients|safe }}".replaceAll("'", '"'));
+                }
+
+                window.onload = function() {
+                    // Jinja2 will put single quotes around the JSON properties and values if they're strings, which JS doesn't like,
+                    // So we MUST replace the single quotes with doubles.
+                    // We also have to use double quotes around the Jinja2 code, otherwise the JSON single quotes will
+                    // accidentally chop up the string before we get to replaceAll().
+                    var ingredients = getIngredients();
+                    initVars(ingredients);
+                }
+            </script>
+        
+            <div>
+                <table style="float: left;">
+                    <tr>
+                        <th>Ingredient</th>
+                        <th>In Inventory</th>
+                        <th>Add/Remove</th>
+                    </tr>
+                    {% for ingredient in ingredients %}
+                        <tr>
+                            <td>{{ ingredient.name }}</td>
+                            <td><span id="{{ ingredient.name }}">{{ ingredient.name }}</span></td>
+                            <td>
+                                <button onclick="incrementVar('{{ ingredient.name }}')">+1</button>
+                                <br>
+                                <button onclick="decrementVar('{{ ingredient.name }}')">-1</button>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+
+                <table style="float: left;" id="recipe_table">
+                    <tr>
+                        <th>Recipe</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

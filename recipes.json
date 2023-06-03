@@ -1,0 +1,1854 @@
+[
+    {
+        "name": "Mushroom Skewer",
+        "cook_type": "pot",
+        "all_of": {
+            "any_mushroom": 1
+        }
+    },
+    {
+        "name": "Meat and Mushroom Skewer",
+        "cook_type": "pot",
+        "all_of": {
+            "any_mushroom": 1,
+            "any_meat": 1
+        }
+    },
+    {
+        "name": "Fish and Mushroom Skewer",
+        "cook_type": "pot",
+        "all_of": {
+            "any_mushroom": 1,
+            "any_fish": 1
+        }
+    },
+    {
+        "name": "Meat Skewer",
+        "cook_type": "pot",
+        "all_of": {
+            "any_meat": 1
+        }
+    },
+    {
+        "name": "Fish Skewer",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fish": 1
+        }
+    },
+    {
+        "name": "Seafood Skewer",
+        "cook_type": "pot",
+        "any_of": {
+            "any_snail": 1,
+            "any_crab": 1
+        }
+    },
+    {
+        "name": "Copious Meat Skewers",
+        "cook_type": "pot",
+        "all_of": {
+            "unique_meat": 4
+        }
+    },
+    {
+        "name": "Copious Seafood Skewers",
+        "cook_type": "pot",
+        "all_of": {
+            "unique_fish": 4
+        }
+    },
+    {
+        "name": "Steamed Fruit",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fruit_not_tomato": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Steamed Tomatoes",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Tomato": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Steamed Mushrooms",
+        "cook_type": "pot",
+        "all_of": {
+            "any_mushroom": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Steamed Meat",
+        "cook_type": "pot",
+        "all_of": {
+            "any_meat": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Steamed Fish",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fish": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Sauteed Nuts",
+        "cook_type": "pot",
+        "all_of": {
+            "any_nut": 1
+        }
+    },
+    {
+        "name": "Fried Wild Greens",
+        "cook_type": "pot",
+        "any_of": {
+            "any_vegetable": 1,
+            "any_flower": 1,
+            "any_herb": 1
+        }
+    },
+    {
+        "name": "Copious Fried Wild Greens",
+        "cook_type": "pot",
+        "all_of": {
+            "unique_green": 4
+        }
+    },
+    {
+        "name": "Cooked Stambulb",
+        "cook_type": "pot",
+        "all_of": {
+            "Stambulb": 1
+        }
+    },
+    {
+        "name": "Buttered Stambulb",
+        "cook_type": "pot",
+        "all_of": {
+            "Stambulb": 1,
+            "Goat Butter": 1
+        }
+    },
+    {
+        "name": "Copious Mushroom Skewers",
+        "cook_type": "pot",
+        "all_of": {
+            "unique_mushroom": 4
+        }
+    },
+    {
+        "name": "Spiced Meat Skewer",
+        "cook_type": "pot",
+        "all_of": {
+            "Goron Spice": 1,
+            "any_meat": 1
+        }
+    },
+    {
+        "name": "Prime Spiced Meat Skewer",
+        "cook_type": "pot",
+        "all_of": {
+            "Goron Spice": 1,
+            "Prime Meat": 1
+        }
+    },
+    {
+        "name": "Gourmet Spiced Meat Skewer",
+        "cook_type": "pot",
+        "all_of": {
+            "Goron Spice": 1,
+            "Gourmet Meat": 1
+        }
+    },
+    {
+        "name": "Crab Stir-Fry",
+        "cook_type": "pot",
+        "all_of": {
+            "Goron Spice": 1,
+            "any_crab": 1
+        }
+    },
+    {
+        "name": "Meat and Seafood Fry",
+        "cook_type": "pot",
+        "all_of": {
+            "any_meat": 1,
+            "any_fish": 1
+        }
+    },
+    {
+        "name": "Prime Meat and Seafood Fry",
+        "cook_type": "pot",
+        "all_of": {
+            "Prime Meat": 1,
+            "any_fish": 1
+        }
+    },
+    {
+        "name": "Gourmet Meat and Seafood Fry",
+        "cook_type": "pot",
+        "all_of": {
+            "Gourmet Meat": 1,
+            "any_fish": 1
+        }
+    },
+    {
+        "name": "Salt-Grilled Greens",
+        "cook_type": "pot",
+        "all_of": {
+            "Rock Salt": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Salt-Grilled Mushroom",
+        "cook_type": "pot",
+        "all_of": {
+            "Rock Salt": 1,
+            "any_mushroom": 1
+        }
+    },
+    {
+        "name": "Salt-Grilled Meat",
+        "cook_type": "pot",
+        "all_of": {
+            "Rock Salt": 1,
+            "any_meat": 1
+        }
+    },
+    {
+        "name": "Salt-Grilled Prime Meat",
+        "cook_type": "pot",
+        "all_of": {
+            "Rock Salt": 1,
+            "Prime Meat": 1
+        }
+    },
+    {
+        "name": "Salt-Grilled Gourmet Meat",
+        "cook_type": "pot",
+        "all_of": {
+            "Rock Salt": 1,
+            "Gourmet Meat": 1
+        }
+    },
+    {
+        "name": "Salt-grilled Fish",
+        "cook_type": "pot",
+        "all_of": {
+            "Rock Salt": 1,
+            "any_fish_not_crab": 1
+        }
+    },
+    {
+        "name": "Salt-grilled Crab",
+        "cook_type": "pot",
+        "all_of": {
+            "Rock Salt": 1,
+            "any_crab": 1
+        }
+    },
+    {
+        "name": "Herb Saute",
+        "cook_type": "pot",
+        "all_of": {
+            "Goron Spice": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Fragrant Mushroom Saute",
+        "cook_type": "pot",
+        "all_of": {
+            "Goron Spice": 1,
+            "any_mushroom": 1
+        }
+    },
+    {
+        "name": "Pepper Steak",
+        "cook_type": "pot",
+        "all_of": {
+            "any_meat": 1,
+            "Spicy Pepper": 1,
+            "Stambulb": 1,
+            "Acorn": 1
+        }
+    },
+    {
+        "name": "Pepper Seafood",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fish": 1,
+            "Spicy Pepper": 1
+        }
+    },
+    {
+        "name": "Fragrant Seafood Stew",
+        "cook_type": "pot",
+        "all_of": {
+            "Oil Jar": 1,
+            "Stambulb": 1,
+            "any_fish": 1
+        }
+    },
+    {
+        "name": "Deep-Fried Drumstick",
+        "cook_type": "pot",
+        "all_of": {
+            "Oil Jar": 1,
+            "Raw Bird Drumstick": 1
+        }
+    },
+    {
+        "name": "Deep-Fried Thigh",
+        "cook_type": "pot",
+        "all_of": {
+            "Oil Jar": 1,
+            "Raw Bird Thigh": 1
+        }
+    },
+    {
+        "name": "Deep-Fried Bird Roast",
+        "cook_type": "pot",
+        "all_of": {
+            "Oil Jar": 1,
+            "Raw Whole Bird": 1
+        }
+    },
+    {
+        "name": "Seafood Meuniere",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fish_not_salmon_or_porgy": 1,
+            "Tabantha Wheat": 1,
+            "Goat Butter": 1
+        }
+    },
+    {
+        "name": "Porgy Meuniere",
+        "cook_type": "pot",
+        "all_of": {
+            "Tabantha Wheat": 1,
+            "Goat Butter": 1,
+            "any_of": {
+                "Armored Porgy": 1,
+                "Mighty Porgy": 1
+            }
+        }
+    },
+    {
+        "name": "Salmon Meuniere",
+        "cook_type": "pot",
+        "all_of": {
+            "Hearty Salmon": 1,
+            "Tabantha Wheat": 1,
+            "Goat Butter": 1
+        }
+    },
+    {
+        "name": "Fruit and Mushroom Mix",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fruit": 1,
+            "any_mushroom": 1
+        }
+    },
+    {
+        "name": "Simmered Fruit",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fruit": 1
+        }
+    },
+    {
+        "name": "Copious Simmered Fruit",
+        "cook_type": "pot",
+        "all_of": {
+            "unique_fruit": 4
+        }
+    },
+    {
+        "name": "Simmered Tomato",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Tomato": 5
+        }
+    },
+    {
+        "name": "Fruity Tomato Stew",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Tomato": 1,
+            "Rock Salt": 1,
+            "Fresh Milk": 1
+        }
+    },
+    {
+        "name": "Tomato Mushroom Stew",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Tomato": 1,
+            "any_mushroom": 1,
+            "any_meat": 1
+        }
+    },
+    {
+        "name": "Tomato Seafood Soup",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Tomato": 1,
+            "any_fish": 1
+        }
+    },
+    {
+        "name": "Cream of Vegetable Soup",
+        "cook_type": "pot",
+        "all_of": {
+            "Fresh Milk": 1,
+            "Rock Salt": 1,
+            "any_of": {
+                "any_vegetable_not_pumpkin_or_carrot": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Veggie Cream Soup",
+        "cook_type": "pot",
+        "all_of": {
+            "Fresh Milk": 1,
+            "Rock Salt": 1,
+            "any_of": {
+                "Fortified Pumpkin": 1,
+                "Endura Carrot": 1,
+                "Swift Carrot": 1
+            }
+        }
+    },
+    {
+        "name": "Cream of Mushroom Soup",
+        "cook_type": "pot",
+        "all_of": {
+            "Fresh Milk": 1,
+            "Rock Salt": 1,
+            "any_mushroom": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Creamy Meat Soup",
+        "cook_type": "pot",
+        "all_of": {
+            "Fresh Milk": 1,
+            "Rock Salt": 1,
+            "any_meat": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Creamy Seafood Soup",
+        "cook_type": "pot",
+        "all_of": {
+            "Fresh Milk": 1,
+            "Rock Salt": 1,
+            "any_fish": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Snail Chowder",
+        "cook_type": "pot",
+        "all_of": {
+            "Fresh Milk": 1,
+            "Goat Butter": 1,
+            "Tabantha Wheat": 1,
+            "any_snail": 1
+        }
+    },
+    {
+        "name": "Creamy Heart Soup",
+        "cook_type": "pot",
+        "all_of": {
+            "Hyrdomelon": 1,
+            "Voltfruit": 1,
+            "Hearty Radish": 1,
+            "Fresh Milk": 1
+        }
+    },
+    {
+        "name": "Glazed Veggies",
+        "cook_type": "pot",
+        "all_of": {
+            "any_vegetable": 1,
+            "Courser Bee Honey": 1
+        }
+    },
+    {
+        "name": "Glazed Mushrooms",
+        "cook_type": "pot",
+        "all_of": {
+            "any_mushroom": 1,
+            "Courser Bee Honey": 1
+        }
+    },
+    {
+        "name": "Glazed Meat",
+        "cook_type": "pot",
+        "all_of": {
+            "Raw Bird Drumstick": 1,
+            "Courser Bee Honey": 1
+        }
+    },
+    {
+        "name": "Glazed Seafood",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fish": 1,
+            "Courser Bee Honey": 1
+        }
+    },
+    {
+        "name": "Curry Rice",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Goron Spice": 1
+        }
+    },
+    {
+        "name": "Vegetable Curry",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Goron Spice": 1,
+            "any_of": {
+                "Fortified Pumpkin": 1,
+                "Endura Carrot": 1,
+                "Swift Carrot": 1
+            }
+        }
+    },
+    {
+        "name": "Prime Meat Curry",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Goron Spice": 1,
+            "Prime Meat": 1
+        }
+    },
+    {
+        "name": "Gourmet Meat Curry",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Goron Spice": 1,
+            "Gourmet Meat": 1
+        }
+    },
+    {
+        "name": "Poultry Curry",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Goron Spice": 1,
+            "Raw Bird Drumstick": 1
+        }
+    },
+    {
+        "name": "Prime Poultry Curry",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Goron Spice": 1,
+            "Raw Bird Thigh": 1
+        }
+    },
+    {
+        "name": "Gourmet Poultry Curry",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Goron Spice": 1,
+            "Raw Whole Bird": 1
+        }
+    },
+    {
+        "name": "Seafood Curry",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Goron Spice": 1,
+            "any_fish": 1
+        }
+    },
+    {
+        "name": "Cheesy Curry",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Goron Spice": 1,
+            "Hateno Cheese": 1
+        }
+    },
+    {
+        "name": "Carrot Stew",
+        "cook_type": "pot",
+        "all_of": {
+            "Goat Butter": 1,
+            "Fresh Milk": 1,
+            "Tabantha Wheat": 1,
+            "any_of": {
+                "Endura Carrot": 1,
+                "Swift Carrot": 1
+            }
+        }
+    },
+    {
+        "name": "Pumpkin Stew",
+        "cook_type": "pot",
+        "all_of": {
+            "Goat Butter": 1,
+            "Fresh Milk": 1,
+            "Tabantha Wheat": 1,
+            "Fortified Pumpkin": 1
+        }
+    },
+    {
+        "name": "Meat Stew",
+        "cook_type": "pot",
+        "all_of": {
+            "Goat Butter": 1,
+            "Fresh Milk": 1,
+            "Tabantha Wheat": 1,
+            "any_basic_meat": 1
+        }
+    },
+    {
+        "name": "Prime Meat Stew",
+        "cook_type": "pot",
+        "all_of": {
+            "Goat Butter": 1,
+            "Fresh Milk": 1,
+            "Tabantha Wheat": 1,
+            "Raw Prime Meat": 1
+        }
+    },
+    {
+        "name": "Gourmet Meat Stew",
+        "cook_type": "pot",
+        "all_of": {
+            "Goat Butter": 1,
+            "Fresh Milk": 1,
+            "Tabantha Wheat": 1,
+            "Raw Gourmet Meat": 1
+        }
+    },
+    {
+        "name": "Meat-Stuffed Pumpkin",
+        "cook_type": "pot",
+        "all_of": {
+            "any_meat": 1,
+            "Fortified Pumpkin": 1
+        }
+    },
+    {
+        "name": "Vegetable Risotto",
+        "cook_type": "pot",
+        "all_of": {
+            "Goat Butter": 1,
+            "Rock Salt": 1,
+            "Hylian Rice": 1,
+            "any_of": {
+                "Endura Carrot": 1,
+                "Swift Carrot": 1,
+                "Fortified Pumpkin": 1
+            }
+        }
+    },
+    {
+        "name": "Mushroom Risotto",
+        "cook_type": "pot",
+        "all_of": {
+            "any_mushroom": 1,
+            "Hylian Rice": 1,
+            "Goat Butter": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Salmon Risotto",
+        "cook_type": "pot",
+        "all_of": {
+            "Hearty Salmon": 1,
+            "Hylian Rice": 1,
+            "Goat Butter": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Crab Risotto",
+        "cook_type": "pot",
+        "all_of": {
+            "any_crab": 1,
+            "Hylian Rice": 1,
+            "Goat Butter": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Cheesy Risotto",
+        "cook_type": "pot",
+        "all_of": {
+            "Goat Butter": 1,
+            "Rock Salt": 1,
+            "Hylian Rice": 1,
+            "Hateno Cheese": 1,
+            "any_of": {
+                "any_mushroom": 1,
+                "any_fish_not_salmon": 1
+            }
+        }
+    },
+    {
+        "name": "Poultry Pilaf",
+        "cook_type": "pot",
+        "all_of": {
+            "Raw Bird Drumstick": 1,
+            "Hylian Rice": 1,
+            "Goat Butter": 1,
+            "Bird Egg": 1
+        }
+    },
+    {
+        "name": "Prime Poultry Pilaf",
+        "cook_type": "pot",
+        "all_of": {
+            "Raw Bird Thigh": 1,
+            "Hylian Rice": 1,
+            "Goat Butter": 1,
+            "Bird Egg": 1
+        }
+    },
+    {
+        "name": "Gourmet Poultry Pilaf",
+        "cook_type": "pot",
+        "all_of": {
+            "Raw Whole Bird": 1,
+            "Hylian Rice": 1,
+            "Goat Butter": 1,
+            "Bird Egg": 1
+        }
+    },
+    {
+        "name": "Seafood Paella",
+        "cook_type": "pot",
+        "all_of": {
+            "Goat Butter": 1,
+            "Rock Salt": 1,
+            "Hylian Rice": 1,
+            "any_crab": 1,
+            "any_of": {
+                "Armored Porgy": 1,
+                "Mighty Porgy": 1
+            }
+        }
+    },
+    {
+        "name": "Curry Pilaf",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Goat Butter": 1,
+            "Goron Spice": 1
+        }
+    },
+    {
+        "name": "Fried Egg and Rice",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Bird Egg": 1
+        }
+    },
+    {
+        "name": "Crunchy Fried Rice",
+        "cook_type": "pot",
+        "all_of": {
+            "any_meat": 1,
+            "Hylian Rice": 1,
+            "Oil Jar": 1,
+            "Bird Egg": 1
+        }
+    },
+    {
+        "name": "Seafood Fried Rice",
+        "cook_type": "pot",
+        "all_of": {
+            "Rock Salt": 1,
+            "Hylian Rice": 1,
+            "any_of": {
+                "Armored Porgy": 1,
+                "Mighty Porgy": 1
+            }
+        }
+    },
+    {
+        "name": "Crab Omelet with Rice",
+        "cook_type": "pot",
+        "all_of": {
+            "any_crab": 1,
+            "Hylian Rice": 1,
+            "Rock Salt": 1,
+            "Bird Egg": 1
+        }
+    },
+    {
+        "name": "Meat and Rice Bowl",
+        "cook_type": "pot",
+        "all_of": {
+            "any_basic_meat": 1,
+            "Hylian Rice": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Prime Meat and Rice Bowl",
+        "cook_type": "pot",
+        "all_of": {
+            "Prime Meat": 1,
+            "Hylian Rice": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Gourmet Meat and Rice Bowl",
+        "cook_type": "pot",
+        "all_of": {
+            "Gourmet Meat": 1,
+            "Hylian Rice": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Cheesy Meat Bowl",
+        "cook_type": "pot",
+        "all_of": {
+            "any_basic_meat": 1,
+            "Hateno Cheese": 1,
+            "Hylian Rice": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Prime Cheesy Meat Bowl",
+        "cook_type": "pot",
+        "all_of": {
+            "Prime Meat": 1,
+            "Hateno Cheese": 1,
+            "Hylian Rice": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Gourmet Cheesy Meat Bowl",
+        "cook_type": "pot",
+        "all_of": {
+            "Gourmet Meat": 1,
+            "Hateno Cheese": 1,
+            "Hylian Rice": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Veggie Rice Balls",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian rice": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Mushroom Rice Balls",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "any_mushroom": 1
+        }
+    },
+    {
+        "name": "Meaty Rice Balls",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "any_meat": 1
+        }
+    },
+    {
+        "name": "Seafood Rice Balls",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "any_fish": 1
+        }
+    },
+    {
+        "name": "Veggie Porridge",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Fresh Milk": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Wheat Bread",
+        "cook_type": "pot",
+        "all_of": {
+            "Rock Salt": 1,
+            "Tabantha Wheat": 1
+        }
+    },
+    {
+        "name": "Melty Cheesy Bread",
+        "cook_type": "pot",
+        "all_of": {
+            "Rock Salt": 1,
+            "Tabantha Wheat": 1,
+            "Hateno Cheese": 1
+        }
+    },
+    {
+        "name": "Hylian Tomato Pizza",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Tomato": 1,
+            "Tabantha Wheat": 1,
+            "Hateno Cheese": 1
+        }
+    },
+    {
+        "name": "Meat Pie",
+        "cook_type": "pot",
+        "all_of": {
+            "any_meat": 1,
+            "Goat Butter": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Fish Pie",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fish": 1,
+            "Goat Butter": 1,
+            "Rock Salt": 1,
+            "Tabantha Wheat": 1
+        }
+    },
+    {
+        "name": "Cheesy Tomato",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Tomato": 1,
+            "Hateno Cheese": 1
+        }
+    },
+    {
+        "name": "Cheesy Baked Fish",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fish": 1,
+            "Hateno Cheese": 1
+        }
+    },
+    {
+        "name": "Omelet",
+        "cook_type": "pot",
+        "all_of": {
+            "Bird Egg": 1,
+            "Goat Butter": 1,
+            "Fresh Milk": 1
+        }
+    },
+    {
+        "name": "Vegetable Omelet",
+        "cook_type": "pot",
+        "all_of": {
+            "Bird Egg": 1,
+            "Goat Butter": 1,
+            "Rock Salt": 1,
+            "any_of": {
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Mushroom Omelet",
+        "cook_type": "pot",
+        "all_of": {
+            "any_mushroom": 1,
+            "Bird Egg": 1,
+            "Rock Salt": 1,
+            "Goat Butter": 1
+        }
+    },
+    {
+        "name": "Cheesy Omelet",
+        "cook_type": "pot",
+        "all_of": {
+            "Bird Egg": 1,
+            "Goat Butter": 1,
+            "Rock Salt": 1,
+            "Hateno Cheese": 1,
+            "any_of": {
+                "any_mushroom": 1,
+                "any_vegetable": 1,
+                "any_flower": 1,
+                "any_herb": 1
+            }
+        }
+    },
+    {
+        "name": "Hot Buttered Apple",
+        "cook_type": "pot",
+        "all_of": {
+            "any_apple": 1,
+            "Goat Butter": 1
+        }
+    },
+    {
+        "name": "Honeyed Fruits",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fruit_not_apple": 1,
+            "Courser Bee Honey": 1
+        }
+    },
+    {
+        "name": "Honeyed Apple",
+        "cook_type": "pot",
+        "all_of": {
+            "any_apple": 1,
+            "Courser Bee Honey": 1
+        }
+    },
+    {
+        "name": "Honey Candy",
+        "cook_type": "pot",
+        "all_of": {
+            "Courser Bee Honey": 1
+        }
+    },
+    {
+        "name": "Fried Bananas",
+        "cook_type": "pot",
+        "all_of": {
+            "Tabantha Wheat": 1,
+            "Courser Bee Honey": 1,
+            "Cane Sugar": 1
+        }
+    },
+    {
+        "name": "Egg Pudding",
+        "cook_type": "pot",
+        "all_of": {
+            "Fresh Milk": 1,
+            "Bird Egg": 1,
+            "Cane Sugar": 1
+        }
+    },
+    {
+        "name": "Plain Crepe",
+        "cook_type": "pot",
+        "all_of": {
+            "Tabantha Wheat": 1,
+            "Fresh Milk": 1,
+            "Bird Egg": 1,
+            "Cane Sugar": 1
+        }
+    },
+    {
+        "name": "Wildberry Crepe",
+        "cook_type": "pot",
+        "all_of": {
+            "Wildberry": 1,
+            "Tabantha Wheat": 1,
+            "Fresh Milk": 1,
+            "Bird Egg": 1,
+            "Cane Sugar": 1
+        }
+    },
+    {
+        "name": "Honey Crepe",
+        "cook_type": "pot",
+        "all_of": {
+            "Courser Bee Honey": 1,
+            "Tabantha Wheat": 1,
+            "Fresh Milk": 1,
+            "Bird Egg": 1,
+            "Cane Sugar": 1
+        }
+    },
+    {
+        "name": "Nutcake",
+        "cook_type": "pot",
+        "all_of": {
+            "any_nut": 1,
+            "Tabantha Wheat": 1,
+            "Goat Butter": 1,
+            "Cane Sugar": 1
+        }
+    },
+    {
+        "name": "Fruitcake",
+        "cook_type": "pot",
+        "all_of": {
+            "any_fruit_not_tomato": 1,
+            "Tabantha Wheat": 1,
+            "Goat Butter": 1,
+            "Cane Sugar": 1,
+            "any_of": {
+                "any_apple": 1,
+                "Wildberry": 1
+            }
+        }
+    },
+    {
+        "name": "Carrot Cake",
+        "cook_type": "pot",
+        "all_of": {
+            "Tabantha Wheat": 1,
+            "Goat Butter": 1,
+            "Cane Sugar": 1,
+            "any_of": {
+                "Endura Carrot": 1,
+                "Swift Carrot": 1
+            }
+        }
+    },
+    {
+        "name": "Pumpkin Pie",
+        "cook_type": "pot",
+        "all_of": {
+            "Tabantha Wheat": 1,
+            "Goat Butter": 1,
+            "Cane Sugar": 1,
+            "Fortified Pumpkin": 1
+        }
+    },
+    {
+        "name": "Cheesecake",
+        "cook_type": "pot",
+        "all_of": {
+            "Tabantha Wheat": 1,
+            "Goat Butter": 1,
+            "Cane Sugar": 1,
+            "Hateno Cheese": 1
+        }
+    },
+    {
+        "name": "Fruit Pie",
+        "cook_type": "pot",
+        "all_of": {
+            "Tabantha Wheat": 1,
+            "Goat Butter": 1,
+            "Cane Sugar": 1,
+            "any_fruit_not_apple_or_pumpkin_or_prob_tomato_and_maybe_some_more": 1
+        }
+    },
+    {
+        "name": "Apple Pie",
+        "cook_type": "pot",
+        "all_of": {
+            "Tabantha Wheat": 1,
+            "Goat Butter": 1,
+            "Cane Sugar": 1,
+            "any_apple": 1
+        }
+    },
+    {
+        "name": "Egg Tart",
+        "cook_type": "pot",
+        "all_of": {
+            "Tabantha Wheat": 1,
+            "Goat Butter": 1,
+            "Cane Sugar": 1,
+            "Bird Egg": 1
+        }
+    },
+    {
+        "name": "Milk",
+        "cook_type": "pot",
+        "all_of": {
+            "Hylian Rice": 1,
+            "Fresh Milk": 1
+        }
+    },
+    {
+        "name": "Noble Pursuit",
+        "cook_type": "pot",
+        "all_of": {
+            "Palm Fruit": 1,
+            "Hydromelon": 1,
+            "Voltfruit": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Monster Stew",
+        "cook_type": "pot",
+        "all_of": {
+            "Monster Extract": 1,
+            "any_meat": 1,
+            "any_fish": 1
+        }
+    },
+    {
+        "name": "Monster Soup",
+        "cook_type": "pot",
+        "all_of": {
+            "Monster Extract": 1,
+            "Goat Butter": 1,
+            "Fresh Milk": 1,
+            "Tabantha Wheat": 1
+        }
+    },
+    {
+        "name": "Monster Curry",
+        "cook_type": "pot",
+        "all_of": {
+            "Monster Extract": 1,
+            "Goron Spice": 1,
+            "Hylian Rice": 1
+        }
+    },
+    {
+        "name": "Monster Rice Balls",
+        "cook_type": "pot",
+        "all_of": {
+            "Monster Extract": 1,
+            "Rock Salt": 1,
+            "Hylian Rice": 1
+        }
+    },
+    {
+        "name": "Monster Cake",
+        "cook_type": "pot",
+        "all_of": {
+            "Monster Extract": 1,
+            "Cane Sugar": 1,
+            "Goat Butter": 1,
+            "Tabantha Wheat": 1
+        }
+    },
+    {
+        "name": "Dark Stew",
+        "cook_type": "pot",
+        "all_of": {
+            "Dark Clump": 1,
+            "any_meat": 1,
+            "any_fish": 1
+        }
+    },
+    {
+        "name": "Dark Soup",
+        "cook_type": "pot",
+        "all_of": {
+            "Dark Clump": 1,
+            "Tabantha Wheat": 1,
+            "Fresh Milk": 1,
+            "Goat Butter": 1
+        }
+    },
+    {
+        "name": "Dark Curry",
+        "cook_type": "pot",
+        "all_of": {
+            "Dark Clump": 1,
+            "Goron Spice": 1,
+            "Hylian Rice": 1
+        }
+    },
+    {
+        "name": "Dark Rice Balls",
+        "cook_type": "pot",
+        "all_of": {
+            "Dark Clump": 1,
+            "Hylian Rice": 1,
+            "Rock Salt": 1
+        }
+    },
+    {
+        "name": "Dark Cake",
+        "cook_type": "pot",
+        "all_of": {
+            "Dark Clump": 1,
+            "Cane Sugar": 1,
+            "Goat Butter": 1,
+            "Tabantha Wheat": 1
+        }
+    },
+    {
+        "name": "Dubious Food",
+        "cook_type": "pot",
+        "all_of": {
+            "any_monster_part": 1
+        }
+    },
+    {
+        "name": "Rock-Hard Food",
+        "cook_type": "pot",
+        "all_of": {
+            "any_ore": 1
+        }
+    },
+    {
+        "name": "Baked Apple",
+        "cook_type": "fire",
+        "all_of": {
+            "Apple": 1
+        }
+    },
+    {
+        "name": "Baked Golden Apple",
+        "cook_type": "fire",
+        "all_of": {
+            "Golden Apple": 1
+        }
+    },
+    {
+        "name": "Charred Pepper",
+        "cook_type": "fire",
+        "all_of": {
+            "Spicy Pepper": 1
+        }
+    },
+    {
+        "name": "Roasted Hylian Tomato",
+        "cook_type": "fire",
+        "all_of": {
+            "Hylian Tomato": 1
+        }
+    },
+    {
+        "name": "Roasted Wildberry",
+        "cook_type": "fire",
+        "all_of": {
+            "Wildberry": 1
+        }
+    },
+    {
+        "name": "Roasted Voltfruit",
+        "cook_type": "fire",
+        "all_of": {
+            "Voltfruit": 1
+        }
+    },
+    {
+        "name": "Roasted Hydromelon",
+        "cook_type": "fire",
+        "all_of": {
+            "Hydromelon": 1
+        }
+    },
+    {
+        "name": "Baked Palm Fruit",
+        "cook_type": "fire",
+        "all_of": {
+            "Palm Fruit": 1
+        }
+    },
+    {
+        "name": "Roasted Mighty Bananas",
+        "cook_type": "fire",
+        "all_of": {
+            "Mighty Bananas": 1
+        }
+    },
+    {
+        "name": "Roasted Lotus Seeds",
+        "cook_type": "fire",
+        "all_of": {
+            "Fleet-Lotus Seeds": 1
+        }
+    },
+    {
+        "name": "Roasted Mighty Thistle",
+        "cook_type": "fire",
+        "all_of": {
+            "Mighty Thistle": 1
+        }
+    },
+    {
+        "name": "Roasted Armoranth",
+        "cook_type": "fire",
+        "all_of": {
+            "Armoranth": 1
+        }
+    },
+    {
+        "name": "Roasted Swift Carrot",
+        "cook_type": "fire",
+        "all_of": {
+            "Swift Carrot": 1
+        }
+    },
+    {
+        "name": "Roasted Endura Carrot",
+        "cook_type": "fire",
+        "all_of": {
+            "Endura Carrot": 1
+        }
+    },
+    {
+        "name": "Baked Fortified Pumpkin",
+        "cook_type": "fire",
+        "all_of": {
+            "Fortified Pumpkin": 1
+        }
+    },
+    {
+        "name": "Roasted Sun Pumpkin",
+        "cook_type": "fire",
+        "all_of": {
+            "Sun Pumpkin": 1
+        }
+    },
+    {
+        "name": "Roasted Radish",
+        "cook_type": "fire",
+        "all_of": {
+            "Hearty Radish": 1
+        }
+    },
+    {
+        "name": "Roasted Big Radish",
+        "cook_type": "fire",
+        "all_of": {
+            "Big Hearty Radish": 1
+        }
+    },
+    {
+        "name": "Toasty Skyshroom",
+        "cook_type": "fire",
+        "all_of": {
+            "Skyshroom": 1
+        }
+    },
+    {
+        "name": "Toasty Hylian Shroom",
+        "cook_type": "fire",
+        "all_of": {
+            "Hylian Shroom": 1
+        }
+    },
+    {
+        "name": "Toasty Stamella Shroom",
+        "cook_type": "fire",
+        "all_of": {
+            "Stamella Shroom": 1
+        }
+    },
+    {
+        "name": "Toasty Rushroom",
+        "cook_type": "fire",
+        "all_of": {
+            "Rushroom": 1
+        }
+    },
+    {
+        "name": "Toasty Sunshroom",
+        "cook_type": "fire",
+        "all_of": {
+            "Sunshroom": 1
+        }
+    },
+    {
+        "name": "Toasty Chillshroom",
+        "cook_type": "fire",
+        "all_of": {
+            "Chillshroom": 1
+        }
+    },
+    {
+        "name": "Toasty Zapshroom",
+        "cook_type": "fire",
+        "all_of": {
+            "Zapshroom": 1
+        }
+    },
+    {
+        "name": "Toasty Razorshroom",
+        "cook_type": "fire",
+        "all_of": {
+            "Razorshroom": 1
+        }
+    },
+    {
+        "name": "Toasty Ironshroom",
+        "cook_type": "fire",
+        "all_of": {
+            "Ironshroom": 1
+        }
+    },
+    {
+        "name": "Toasty Silent Shroom",
+        "cook_type": "fire",
+        "all_of": {
+            "Silent Shroom": 1
+        }
+    },
+    {
+        "name": "Toasty Brightcap",
+        "cook_type": "fire",
+        "all_of": {
+            "Brightcap": 1
+        }
+    },
+    {
+        "name": "Toasty Endura Shroom",
+        "cook_type": "fire",
+        "all_of": {
+            "Endura Shroom": 1
+        }
+    },
+    {
+        "name": "Toasted Hearty Truffle",
+        "cook_type": "fire",
+        "all_of": {
+            "Hearty Truffle": 1
+        }
+    },
+    {
+        "name": "Toasted Big Hearty Truffle",
+        "cook_type": "fire",
+        "all_of": {
+            "Big Hearty Truffle": 1
+        }
+    },
+    {
+        "name": "Seared Steak",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Meat": 1
+        }
+    },
+    {
+        "name": "Seared Prime Meat",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Prime Meat": 1
+        }
+    },
+    {
+        "name": "Seared Gourmet Meat",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Gourmet Meat": 1
+        }
+    },
+    {
+        "name": "Roasted Bird Drumstick",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Bird Drumstick": 1
+        }
+    },
+    {
+        "name": "Roasted Bird Thigh",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Bird Thigh": 1
+        }
+    },
+    {
+        "name": "Roasted Whole Bird",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Whole Bird": 1
+        }
+    },
+    {
+        "name": "Roasted Arowana",
+        "cook_type": "fire",
+        "all_of": {
+            "Ancient Arowana": 1
+        }
+    },
+    {
+        "name": "Roasted Bass",
+        "cook_type": "fire",
+        "any_of": {
+            "Hyrule Bass": 1,
+            "Hearty Bass": 1
+        }
+    },
+    {
+        "name": "Roasted Trout",
+        "cook_type": "fire",
+        "any_of": {
+            "Chillfin Trout": 1,
+            "Stealthfin Trout": 1,
+            "Sizzlefin Trout": 1,
+            "Voltfin Trout": 1
+        }
+    },
+    {
+        "name": "Roasted Carp",
+        "cook_type": "fire",
+        "any_of": {
+            "Sanke Carp": 1,
+            "Armored Carp": 1,
+            "Mighty Carp": 1
+        }
+    },
+    {
+        "name": "Roasted Porgy",
+        "cook_type": "fire",
+        "any_of": {
+            "Mighty Porgy": 1,
+            "Armored Porgy": 1
+        }
+    },
+    {
+        "name": "Roasted Cave Fish",
+        "cook_type": "fire",
+        "all_of": {
+            "Glowing Cave Fish": 1
+        }
+    },
+    {
+        "name": "Roasted Hearty Bass",
+        "cook_type": "fire",
+        "all_of": {
+            "Glowing Cave Fish": 1
+        }
+    },
+    {
+        "name": "Roasted Hearty Salmon",
+        "cook_type": "fire",
+        "all_of": {
+            "Hearty Salmon": 1
+        }
+    },
+    {
+        "name": "Blackened Crab",
+        "cook_type": "fire",
+        "all_of": {
+            "any_crab": 1
+        }
+    },
+    {
+        "name": "Sneaky River Escargot",
+        "cook_type": "fire",
+        "all_of": {
+            "Sneaky River Snail": 1
+        }
+    },
+    {
+        "name": "Roasted Tree Nut",
+        "cook_type": "fire",
+        "all_of": {
+            "Chickaloo Tree Nut": 1
+        }
+    },
+    {
+        "name": "Roasted Acorn",
+        "cook_type": "fire",
+        "all_of": {
+            "Acorn": 1
+        }
+    },
+    {
+        "name": "Campfire Egg",
+        "cook_type": "fire",
+        "all_of": {
+            "Bird Egg": 1
+        }
+    },
+    {
+        "name": "Hard-Boiled Egg",
+        "cook_type": "hot_spring",
+        "all_of": {
+            "Bird Egg": 1
+        }
+    },
+    {
+        "name": "Icy Meat",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Meat": 1
+        }
+    },
+    {
+        "name": "Icy Prime Meat",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Prime Meat": 1
+        }
+    },
+    {
+        "name": "Icy Gourmet Meat",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Gourmet Meat": 1
+        }
+    },
+    {
+        "name": "Frozen Drumstick",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Bird Drumstick": 1
+        }
+    },
+    {
+        "name": "Frozen Thigh",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Bird Thigh": 1
+        }
+    },
+    {
+        "name": "Frozen Whole Bird",
+        "cook_type": "fire",
+        "all_of": {
+            "Raw Whole Bird": 1
+        }
+    },
+    {
+        "name": "Frozen Arowana",
+        "cook_type": "fire",
+        "all_of": {
+            "Ancient Arowana": 1
+        }
+    },
+    {
+        "name": "Frozen Bass",
+        "cook_type": "fire",
+        "any_of": {
+            "Hyrule Bass": 1,
+            "Hearty Bass": 1
+        }
+    },
+    {
+        "name": "Frozen Trout",
+        "cook_type": "fire",
+        "any_of": {
+            "Chillfin Trout": 1,
+            "Stealthfin Trout": 1,
+            "Sizzlefin Trout": 1,
+            "Voltfin Trout": 1
+        }
+    },
+    {
+        "name": "Frozen Carp",
+        "cook_type": "fire",
+        "any_of": {
+            "Sanke Carp": 1,
+            "Armored Carp": 1,
+            "Mighty Carp": 1
+        }
+    },
+    {
+        "name": "Frozen Porgy",
+        "cook_type": "fire",
+        "any_of": {
+            "Mighty Porgy": 1,
+            "Armored Porgy": 1
+        }
+    },
+    {
+        "name": "Frozen Cave Fish",
+        "cook_type": "fire",
+        "all_of": {
+            "Glowing Cave Fish": 1
+        }
+    },
+    {
+        "name": "Frozen Hearty Bass",
+        "cook_type": "fire",
+        "all_of": {
+            "Glowing Cave Fish": 1
+        }
+    },
+    {
+        "name": "Frozen Hearty Salmon",
+        "cook_type": "fire",
+        "all_of": {
+            "Hearty Salmon": 1
+        }
+    },
+    {
+        "name": "Frozen Crab",
+        "cook_type": "fire",
+        "all_of": {
+            "any_crab": 1
+        }
+    },
+    {
+        "name": "Frozen Snail",
+        "cook_type": "fire",
+        "all_of": {
+            "Sneaky River Snail": 1
+        }
+    }
+]
