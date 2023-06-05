@@ -20,6 +20,7 @@ body {
     flex-wrap: wrap;
     gap: 10px 30px;
     height: 300px;
+    width: calc(100% - 75px - 75px);
     align-content: flex-start;
     overflow: auto;
 
