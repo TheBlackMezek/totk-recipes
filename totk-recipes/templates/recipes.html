@@ -248,7 +248,7 @@
                     var recipe_table = document.getElementById('recipe_table');
 
                     // First we need to remove all the extra rows that were added last time
-                    var old_rows = recipe_table.querySelectorAll('tr:not(:first-child)');
+                    var old_rows = recipe_table.querySelectorAll('tr');
                     old_rows.forEach(function(row) {
                         row.remove();
                     })
@@ -270,6 +270,7 @@
                                 checks_passed += 1;
                             }
                         }
+                        checks_passed = checks;
                         if (checks_passed == checks) {
                             var new_row = document.createElement('tr');
                             var recipe_cell = document.createElement('th');
@@ -298,6 +299,10 @@
                     initVars(ingredients);
                 }
             </script>
+
+            <div>Recipes</div>
+
+            <div style="float: left;" id="recipe_table"></div>
         
             <div>
                 <table style="float: left;">
@@ -317,12 +322,6 @@
                             </td>
                         </tr>
                     {% endfor %}
-                </table>
-
-                <table style="float: left;" id="recipe_table">
-                    <tr>
-                        <th>Recipe</th>
-                    </tr>
                 </table>
             </div>
         </div>
