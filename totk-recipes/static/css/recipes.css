@@ -35,3 +35,16 @@ body {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+#attribution_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+#name_paragraph {
+    margin-bottom: 0px;
+}
